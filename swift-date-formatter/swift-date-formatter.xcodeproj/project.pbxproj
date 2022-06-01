@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B18CC18C284769D5000E59BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CC18B284769D5000E59BD /* AppDelegate.swift */; };
+		B18CC18E284769D5000E59BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CC18D284769D5000E59BD /* SceneDelegate.swift */; };
+		B18CC190284769D5000E59BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CC18F284769D5000E59BD /* ViewController.swift */; };
+		B18CC193284769D5000E59BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18CC191284769D5000E59BD /* Main.storyboard */; };
+		B18CC195284769D7000E59BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B18CC194284769D7000E59BD /* Assets.xcassets */; };
+		B18CC198284769D7000E59BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B18CC196284769D7000E59BD /* LaunchScreen.storyboard */; };
+		B18CC1A128476A32000E59BD /* ExtractLocaleOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CC1A028476A32000E59BD /* ExtractLocaleOption.swift */; };
+		B18CC1A328476A45000E59BD /* ExtractFormatBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CC1A228476A45000E59BD /* ExtractFormatBuilder.swift */; };
+		B18CC1A528476A5C000E59BD /* ExtractDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CC1A428476A5C000E59BD /* ExtractDateFormatter.swift */; };
+		B18CC1A828476CE4000E59BD /* ExtractDateFormatter+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CC1A728476CE4000E59BD /* ExtractDateFormatter+Configuration.swift */; };
+		B18CC1AA28476D04000E59BD /* InputOption+InputOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CC1A928476D04000E59BD /* InputOption+InputOption.swift */; };
+		B18CC1B028476E3E000E59BD /* ExtractFormatBuilder+DefaultOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CC1AF28476E3E000E59BD /* ExtractFormatBuilder+DefaultOption.swift */; };
+		B18CC1B228477B1D000E59BD /* ExtractFormatBuilder+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CC1B128477B1D000E59BD /* ExtractFormatBuilder+Format.swift */; };
+		B18CC1BA28477BF8000E59BD /* swift_date_formatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CC1B928477BF8000E59BD /* swift_date_formatterTests.swift */; };
+		B18CC1C128477C2E000E59BD /* ExtractDateFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18CC1C028477C2E000E59BD /* ExtractDateFormatterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B18CC1BB28477BF8000E59BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B18CC180284769D5000E59BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B18CC187284769D5000E59BD;
+			remoteInfo = "swift-date-formatter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B18CC188284769D5000E59BD /* swift-date-formatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-date-formatter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18CC18B284769D5000E59BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B18CC18D284769D5000E59BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B18CC18F284769D5000E59BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B18CC192284769D5000E59BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B18CC194284769D7000E59BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B18CC197284769D7000E59BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B18CC199284769D7000E59BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B18CC1A028476A32000E59BD /* ExtractLocaleOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractLocaleOption.swift; sourceTree = "<group>"; };
+		B18CC1A228476A45000E59BD /* ExtractFormatBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractFormatBuilder.swift; sourceTree = "<group>"; };
+		B18CC1A428476A5C000E59BD /* ExtractDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractDateFormatter.swift; sourceTree = "<group>"; };
+		B18CC1A728476CE4000E59BD /* ExtractDateFormatter+Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExtractDateFormatter+Configuration.swift"; sourceTree = "<group>"; };
+		B18CC1A928476D04000E59BD /* InputOption+InputOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InputOption+InputOption.swift"; sourceTree = "<group>"; };
+		B18CC1AF28476E3E000E59BD /* ExtractFormatBuilder+DefaultOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExtractFormatBuilder+DefaultOption.swift"; sourceTree = "<group>"; };
+		B18CC1B128477B1D000E59BD /* ExtractFormatBuilder+Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExtractFormatBuilder+Format.swift"; sourceTree = "<group>"; };
+		B18CC1B728477BF8000E59BD /* swift-date-formatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-date-formatterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18CC1B928477BF8000E59BD /* swift_date_formatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_date_formatterTests.swift; sourceTree = "<group>"; };
+		B18CC1C028477C2E000E59BD /* ExtractDateFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractDateFormatterTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B18CC185284769D5000E59BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18CC1B428477BF8000E59BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B18CC17F284769D5000E59BD = {
+			isa = PBXGroup;
+			children = (
+				B18CC18A284769D5000E59BD /* swift-date-formatter */,
+				B18CC1B828477BF8000E59BD /* swift-date-formatterTests */,
+				B18CC189284769D5000E59BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B18CC189284769D5000E59BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B18CC188284769D5000E59BD /* swift-date-formatter.app */,
+				B18CC1B728477BF8000E59BD /* swift-date-formatterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B18CC18A284769D5000E59BD /* swift-date-formatter */ = {
+			isa = PBXGroup;
+			children = (
+				B18CC19F28476A0F000E59BD /* DateFormatter */,
+				B18CC18B284769D5000E59BD /* AppDelegate.swift */,
+				B18CC18D284769D5000E59BD /* SceneDelegate.swift */,
+				B18CC18F284769D5000E59BD /* ViewController.swift */,
+				B18CC191284769D5000E59BD /* Main.storyboard */,
+				B18CC194284769D7000E59BD /* Assets.xcassets */,
+				B18CC196284769D7000E59BD /* LaunchScreen.storyboard */,
+				B18CC199284769D7000E59BD /* Info.plist */,
+			);
+			path = "swift-date-formatter";
+			sourceTree = "<group>";
+		};
+		B18CC19F28476A0F000E59BD /* DateFormatter */ = {
+			isa = PBXGroup;
+			children = (
+				B18CC1A628476C8D000E59BD /* Formatter */,
+				B18CC1AC28476DF5000E59BD /* FormatBuilder */,
+				B18CC1AB28476DE9000E59BD /* LocaleOption */,
+			);
+			path = DateFormatter;
+			sourceTree = "<group>";
+		};
+		B18CC1A628476C8D000E59BD /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				B18CC1A428476A5C000E59BD /* ExtractDateFormatter.swift */,
+				B18CC1A728476CE4000E59BD /* ExtractDateFormatter+Configuration.swift */,
+				B18CC1A928476D04000E59BD /* InputOption+InputOption.swift */,
+			);
+			path = Formatter;
+			sourceTree = "<group>";
+		};
+		B18CC1AB28476DE9000E59BD /* LocaleOption */ = {
+			isa = PBXGroup;
+			children = (
+				B18CC1A028476A32000E59BD /* ExtractLocaleOption.swift */,
+			);
+			path = LocaleOption;
+			sourceTree = "<group>";
+		};
+		B18CC1AC28476DF5000E59BD /* FormatBuilder */ = {
+			isa = PBXGroup;
+			children = (
+				B18CC1A228476A45000E59BD /* ExtractFormatBuilder.swift */,
+				B18CC1AF28476E3E000E59BD /* ExtractFormatBuilder+DefaultOption.swift */,
+				B18CC1B128477B1D000E59BD /* ExtractFormatBuilder+Format.swift */,
+			);
+			path = FormatBuilder;
+			sourceTree = "<group>";
+		};
+		B18CC1B828477BF8000E59BD /* swift-date-formatterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B18CC1B928477BF8000E59BD /* swift_date_formatterTests.swift */,
+				B18CC1C028477C2E000E59BD /* ExtractDateFormatterTests.swift */,
+			);
+			path = "swift-date-formatterTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B18CC187284769D5000E59BD /* swift-date-formatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18CC19C284769D7000E59BD /* Build configuration list for PBXNativeTarget "swift-date-formatter" */;
+			buildPhases = (
+				B18CC184284769D5000E59BD /* Sources */,
+				B18CC185284769D5000E59BD /* Frameworks */,
+				B18CC186284769D5000E59BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swift-date-formatter";
+			productName = "swift-date-formatter";
+			productReference = B18CC188284769D5000E59BD /* swift-date-formatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B18CC1B628477BF8000E59BD /* swift-date-formatterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B18CC1BD28477BF8000E59BD /* Build configuration list for PBXNativeTarget "swift-date-formatterTests" */;
+			buildPhases = (
+				B18CC1B328477BF8000E59BD /* Sources */,
+				B18CC1B428477BF8000E59BD /* Frameworks */,
+				B18CC1B528477BF8000E59BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B18CC1BC28477BF8000E59BD /* PBXTargetDependency */,
+			);
+			name = "swift-date-formatterTests";
+			productName = "swift-date-formatterTests";
+			productReference = B18CC1B728477BF8000E59BD /* swift-date-formatterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B18CC180284769D5000E59BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B18CC187284769D5000E59BD = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B18CC1B628477BF8000E59BD = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B18CC187284769D5000E59BD;
+					};
+				};
+			};
+			buildConfigurationList = B18CC183284769D5000E59BD /* Build configuration list for PBXProject "swift-date-formatter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B18CC17F284769D5000E59BD;
+			productRefGroup = B18CC189284769D5000E59BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B18CC187284769D5000E59BD /* swift-date-formatter */,
+				B18CC1B628477BF8000E59BD /* swift-date-formatterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B18CC186284769D5000E59BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18CC198284769D7000E59BD /* LaunchScreen.storyboard in Resources */,
+				B18CC195284769D7000E59BD /* Assets.xcassets in Resources */,
+				B18CC193284769D5000E59BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18CC1B528477BF8000E59BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B18CC184284769D5000E59BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18CC1A128476A32000E59BD /* ExtractLocaleOption.swift in Sources */,
+				B18CC190284769D5000E59BD /* ViewController.swift in Sources */,
+				B18CC18C284769D5000E59BD /* AppDelegate.swift in Sources */,
+				B18CC1B028476E3E000E59BD /* ExtractFormatBuilder+DefaultOption.swift in Sources */,
+				B18CC18E284769D5000E59BD /* SceneDelegate.swift in Sources */,
+				B18CC1B228477B1D000E59BD /* ExtractFormatBuilder+Format.swift in Sources */,
+				B18CC1A528476A5C000E59BD /* ExtractDateFormatter.swift in Sources */,
+				B18CC1AA28476D04000E59BD /* InputOption+InputOption.swift in Sources */,
+				B18CC1A828476CE4000E59BD /* ExtractDateFormatter+Configuration.swift in Sources */,
+				B18CC1A328476A45000E59BD /* ExtractFormatBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B18CC1B328477BF8000E59BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B18CC1C128477C2E000E59BD /* ExtractDateFormatterTests.swift in Sources */,
+				B18CC1BA28477BF8000E59BD /* swift_date_formatterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B18CC1BC28477BF8000E59BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B18CC187284769D5000E59BD /* swift-date-formatter */;
+			targetProxy = B18CC1BB28477BF8000E59BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B18CC191284769D5000E59BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18CC192284769D5000E59BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B18CC196284769D7000E59BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B18CC197284769D7000E59BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B18CC19A284769D7000E59BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B18CC19B284769D7000E59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B18CC19D284769D7000E59BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y487CY958A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swift-date-formatter/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PaoloProdossimoLopes.swift-date-formatter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B18CC19E284769D7000E59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y487CY958A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "swift-date-formatter/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PaoloProdossimoLopes.swift-date-formatter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B18CC1BE28477BF8000E59BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y487CY958A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PaoloProdossimoLopes.swift-date-formatterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-date-formatter.app/swift-date-formatter";
+			};
+			name = Debug;
+		};
+		B18CC1BF28477BF8000E59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y487CY958A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "PaoloProdossimoLopes.swift-date-formatterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-date-formatter.app/swift-date-formatter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B18CC183284769D5000E59BD /* Build configuration list for PBXProject "swift-date-formatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18CC19A284769D7000E59BD /* Debug */,
+				B18CC19B284769D7000E59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18CC19C284769D7000E59BD /* Build configuration list for PBXNativeTarget "swift-date-formatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18CC19D284769D7000E59BD /* Debug */,
+				B18CC19E284769D7000E59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B18CC1BD28477BF8000E59BD /* Build configuration list for PBXNativeTarget "swift-date-formatterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B18CC1BE28477BF8000E59BD /* Debug */,
+				B18CC1BF28477BF8000E59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B18CC180284769D5000E59BD /* Project object */;
+}
