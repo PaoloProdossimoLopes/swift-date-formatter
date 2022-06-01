@@ -164,11 +164,6 @@ A sequir os metodos presentes para uso dessa classe e sua funcionalidade.
   ExtractDateFormatter.shared.format(config: config) //Retorno: 10-20 50
 ```
 
-```swift 
-  //Exemplo: Formatando
-  
-```
-
 ## 🏷 Informações sobre os modelos Internos
 Modelos internos sao classes do objeto reponsaveis pelas padronizar, desencapsular, limitar, direcionar o uso dentre outros motivos.
 
