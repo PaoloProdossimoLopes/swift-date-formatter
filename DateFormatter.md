@@ -174,6 +174,7 @@ Modelo usado para configurar a mudanca de uma data 'crua' para um formato/estilo
 - [x] Estrutura
 - [ ] Enum
 
+#### Propriedades:
 ```swift
 let rawDate: String
 //Propriedade que inputa a data do tipo String no formato a ser formatado.
@@ -196,6 +197,7 @@ Modelo usado pelo formatador na hora de configuralo antes da formataçao em si.
 - [x] Estrutura
 - [ ] Enum
 
+#### Propriedades:
 ```swift
 var localeOption: ExtractLocaleOption
 //Locale é usado para escolher qual o idioma a data estara durante a formataçao.
@@ -214,6 +216,7 @@ Modelo responsavel por escolha dos metodos de formataçao
 - [ ] Estrutura
 - [x] Enum
 
+#### Cases:
 ```swift
 case raw(String)
 //Opção usada para colocar 'na mao' o formato que deseja formatar
@@ -223,10 +226,12 @@ case defaults(ExtractFormatBuilder.DefaultOption)
 
 case formatter([ExtractFormatBuilder.Format])
 //Opção usada para construir "na mao" porem utilizando as estruturas do "ExtractFormatBuilder"
+```
 
+#### Propriedades:
+```swift
 var format: String
 //Propriedade computada que devolve o formato correto dependendo da sua escolha de 'case' para construçao do formatador.
-
 ```
 <br></br>
 
