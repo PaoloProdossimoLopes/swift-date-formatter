@@ -3,18 +3,19 @@ Date formatter é a classe do modulo de extrato reponsavel por todas as formata�
 **OBS:** As propriedades/Metodos abordadas aqui sao somentes as ***internal*** e ***public***, ou seja, ***privados*** e ***fileprivate*** nao sao abordadas aqui.
 
 ## ℹ️ Informações:
-### Arquivos relacionados
+
+#### Arquivos relacionados
 - ExtractDateFormatter.swift
 - ExtractFormatBuilder.swift
 - ExtarctLocaleOption.swift
 - DateFormatterTests.swift
 
-### Tipo de objeto:
+#### Tipo de objeto:
 - [ ] Classe
 - [x] Estrutura
 - [ ] Enum
 
-### Possui Teste unitario?
+#### Possui Teste unitario?
 - [ ] Não
 - [x] Sim. Se sim qual?<br> **R:** DateFormatterTests.swift
 
@@ -232,3 +233,6 @@ var format: String
 //Propriedade computada que devolve o formato correto dependendo da sua escolha de 'case' para construçao do formatador.
 
 ```
+<br></br>
+
+**Ultima atualizaçao em:** 01/06/2022
