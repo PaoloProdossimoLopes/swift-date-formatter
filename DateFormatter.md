@@ -1,5 +1,5 @@
 # 📃 ExtractDateFormatter
-Date formatter é a classe do modulo de extrato reponsavel por todas as formataçoes de data nele. <br>
+ExtractDateFormatter é a classe do modulo 'Extract' de extrato reponsavel por todas as formataçoes de data nele. <br>
 **OBS:** As propriedades/Metodos abordadas aqui sao somentes as ***internal*** e ***public***, ou seja, ***privados*** e ***fileprivate*** nao sao abordadas aqui.
 
 ## ℹ️ Informações:
