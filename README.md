@@ -1,47 +1,9 @@
-<!-- SET TOP ANCHOR -->
-<div id="top"></div>
-
-<!-- APP LOGO v1 -->
-<!-- 
-* THIS IS OPTIONAL
-<p align="center">
-  <img src="https://github.com/{**USRENAME_REPONAME**}/blob/main/README_ASSETS/TINDER_LOGO.png" width="300">  
-</p>
- -->
 
 <!-- PROJECT NAME -->
-#  REPOSITORY TEMPLATE
+#  Date Formatter
 
 <!-- DESCRIPTION -->
 This project are created for using as template for others repository.
-
-
-
-
-<!-- APP LOGO V2-->
-<!-- 
-<br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
-
-  <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
--->
 
 
 
@@ -52,17 +14,6 @@ This project are created for using as template for others repository.
 [![GitHub](https://img.shields.io/github/issues-pr/PaoloProdossimoLopes/repository-template?color=black&style=flat-square)](https://github.com/PaoloProdossimoLopes/repository-template/pulls)
 
 
-
-<!-- ACTIONS -->
-<!-- Unsed
-* IF YOUR WAS USING THE V2 HEADER YOU DON NEED THIS SETION
-
-## 🔎  ACTIONS
-[![REPORT ISSUE](https://img.shields.io/badge/-⚠️_REPORT_ISSUE-grey?style=flat-square&logo=pull_request&logoColor=white)](https://github.com/PaoloProdossimoLopes/repository-template/issues)
-[![PULL REQUEST](https://img.shields.io/badge/-⤴️_PULL_REQUEST-grey?style=flat-square&logo=pull_request&logoColor=white)](https://github.com/PaoloProdossimoLopes/repository-template/pulls)
--->
-
-
 <!-- Index -->
 ## 🔢  INDEX 
 1. [SCREENSHOTS](#screenshots)
@@ -70,25 +21,10 @@ This project are created for using as template for others repository.
     - [PREREQUISITES](#prerequisites)
     - [INSTALATION](#instalation)
     - [RUN](#run)
-4. [USAGE/ DOCUMENTATION](#usage) 
 5. [ROADMAP](#roadmap)
 6. [CONTRIBUTING](#contributing)
 7. [LICENSE](#license)
 8. [CONTACT](#contact)
-
-
-
-<!-- SCREENSHOTS -->
-## 📸  SCREENSHOTS <a name="screenshots"></a>
-<!-- 
-<img src="https://github.com/PaoloProdossimoLopes/repository-template/blob/main/README_ASSETS/SIMULADOR_LOADER.png" height="300">
--->
-<p align="center">
-  <img src="https://github.com/PaoloProdossimoLopes/repository-template/blob/main/README_ASSETS/exampleMocks.jpeg" height="300" align="center">
-<p/>
-
-<p align="right"><a href="#top">🔼 BACK TO THE TOP</a></p>
-
 
 
 <!-- GETTING STARTED -->
